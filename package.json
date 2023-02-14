@@ -1,0 +1,21 @@
+{
+  "name": "wechat-gpt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/wechaty/index.js"
+  },
+  "author": "Arthur",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "openai": "^3.1.0",
+    "p-timeout": "^6.0.0",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "wechaty": "^1.20.2",
+    "wechaty-puppet-wechat": "^1.18.4"
+  }
+}
